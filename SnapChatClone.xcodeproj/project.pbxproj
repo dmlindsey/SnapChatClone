@@ -7,22 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		110F4D7B2098BF660046F185 /* SelectRecipientTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110F4D7A2098BF660046F185 /* SelectRecipientTableViewController.swift */; };
+		112FB8D52097BDD3009D7322 /* SnapsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112FB8D42097BDD3009D7322 /* SnapsTableViewController.swift */; };
+		112FB8D72097C1DD009D7322 /* SelectPictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112FB8D62097C1DD009D7322 /* SelectPictureViewController.swift */; };
+		114862FC209A5D9B002208A5 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 114862FB209A5D9B002208A5 /* Launch Screen.storyboard */; };
+		114BA162209B975800F2D153 /* ViewSnapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114BA161209B975800F2D153 /* ViewSnapsViewController.swift */; };
 		11ED3E2C2097698100C426FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11ED3E2B2097698100C426FE /* AppDelegate.swift */; };
-		11ED3E2E2097698100C426FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11ED3E2D2097698100C426FE /* ViewController.swift */; };
+		11ED3E2E2097698100C426FE /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11ED3E2D2097698100C426FE /* LogInViewController.swift */; };
 		11ED3E312097698100C426FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11ED3E2F2097698100C426FE /* Main.storyboard */; };
 		11ED3E332097698200C426FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11ED3E322097698200C426FE /* Assets.xcassets */; };
-		11ED3E362097698200C426FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11ED3E342097698200C426FE /* LaunchScreen.storyboard */; };
 		11ED3E3E20976A4200C426FE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11ED3E3D20976A4200C426FE /* GoogleService-Info.plist */; };
 		31A986B1E500B9A1CD894233 /* Pods_SnapChatClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EC9A336B09D626FCEB4F2E7 /* Pods_SnapChatClone.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		110F4D7A2098BF660046F185 /* SelectRecipientTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRecipientTableViewController.swift; sourceTree = "<group>"; };
+		112FB8D42097BDD3009D7322 /* SnapsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapsTableViewController.swift; sourceTree = "<group>"; };
+		112FB8D62097C1DD009D7322 /* SelectPictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPictureViewController.swift; sourceTree = "<group>"; };
+		114862FB209A5D9B002208A5 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		114BA161209B975800F2D153 /* ViewSnapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSnapsViewController.swift; sourceTree = "<group>"; };
 		11ED3E282097698100C426FE /* SnapChatClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapChatClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11ED3E2B2097698100C426FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		11ED3E2D2097698100C426FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11ED3E2D2097698100C426FE /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		11ED3E302097698100C426FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11ED3E322097698200C426FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		11ED3E352097698200C426FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11ED3E372097698200C426FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11ED3E3D20976A4200C426FE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1E9B42F134C1D200C7FB4020 /* Pods-SnapChatClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapChatClone.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnapChatClone/Pods-SnapChatClone.release.xcconfig"; sourceTree = "<group>"; };
@@ -64,10 +72,14 @@
 			isa = PBXGroup;
 			children = (
 				11ED3E2B2097698100C426FE /* AppDelegate.swift */,
-				11ED3E2D2097698100C426FE /* ViewController.swift */,
+				11ED3E2D2097698100C426FE /* LogInViewController.swift */,
+				112FB8D42097BDD3009D7322 /* SnapsTableViewController.swift */,
+				112FB8D62097C1DD009D7322 /* SelectPictureViewController.swift */,
+				110F4D7A2098BF660046F185 /* SelectRecipientTableViewController.swift */,
+				114BA161209B975800F2D153 /* ViewSnapsViewController.swift */,
 				11ED3E2F2097698100C426FE /* Main.storyboard */,
+				114862FB209A5D9B002208A5 /* Launch Screen.storyboard */,
 				11ED3E322097698200C426FE /* Assets.xcassets */,
-				11ED3E342097698200C426FE /* LaunchScreen.storyboard */,
 				11ED3E372097698200C426FE /* Info.plist */,
 				11ED3E3D20976A4200C426FE /* GoogleService-Info.plist */,
 			);
@@ -102,6 +114,7 @@
 				11ED3E242097698100C426FE /* Sources */,
 				11ED3E252097698100C426FE /* Frameworks */,
 				11ED3E262097698100C426FE /* Resources */,
+				A83B1FB66B9BC60C395F7A6D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -150,9 +163,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11ED3E362097698200C426FE /* LaunchScreen.storyboard in Resources */,
 				11ED3E3E20976A4200C426FE /* GoogleService-Info.plist in Resources */,
 				11ED3E332097698200C426FE /* Assets.xcassets in Resources */,
+				114862FC209A5D9B002208A5 /* Launch Screen.storyboard in Resources */,
 				11ED3E312097698100C426FE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,6 +191,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A83B1FB66B9BC60C395F7A6D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SnapChatClone/Pods-SnapChatClone-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnapChatClone/Pods-SnapChatClone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -185,7 +216,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11ED3E2E2097698100C426FE /* ViewController.swift in Sources */,
+				112FB8D52097BDD3009D7322 /* SnapsTableViewController.swift in Sources */,
+				114BA162209B975800F2D153 /* ViewSnapsViewController.swift in Sources */,
+				112FB8D72097C1DD009D7322 /* SelectPictureViewController.swift in Sources */,
+				110F4D7B2098BF660046F185 /* SelectRecipientTableViewController.swift in Sources */,
+				11ED3E2E2097698100C426FE /* LogInViewController.swift in Sources */,
 				11ED3E2C2097698100C426FE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,14 +234,6 @@
 				11ED3E302097698100C426FE /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		11ED3E342097698200C426FE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				11ED3E352097698200C426FE /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
